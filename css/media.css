@@ -25,14 +25,21 @@
     .nav-button {
         position: fixed;
         z-index: 9;
-        top: 30px;
-        right: 850px;
+        top: 58px;
+        right: 30px;
     }
 }
 
 @media (max-width: 767px) {
+    .logo {
+        width: 115px;
+        height: 35px;
+        margin-left: 30px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
     header {
-        height: 707px;
+        height: 785px;
     }
     section {
         display: flex;
@@ -87,6 +94,7 @@
         height: 804px;
         width: 315px;
         margin-left: 30px;
+        margin-top: -30px;
     }
     .Design,
     .Dev,
@@ -109,17 +117,33 @@
         width: 144px;
         height: 51px;
         margin-left: 116px;
+        margin-top: 30px;
+    }
+    .fashion-store img {
+        margin-top: 45px;
     }
     .fashion-store img,
     .reebok img,
     .Braun img {
         width: 315px;
         height: 170px;
+        margin-top: 70px;
     }
     .container {
         width: 375px;
+        height: 780px;
     }
     .portfolio h1 {
         margin-right: 116px;
+    }
+    .background {
+        height: 1050px;
+    }
+    .contacts h1 {
+        margin-top: 35px;
+        margin-bottom: 37px;
+    }
+    .footer .container {
+        height: 480px;
     }
 }
