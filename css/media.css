@@ -1,5 +1,4 @@
 @media (max-width: 1230px) {
-    
     .nav_list {
         display: none;
     }
@@ -26,39 +25,90 @@
     .nav-button {
         position: fixed;
         z-index: 9;
-        top: 46px;
-        right: 30px;
+        top: 30px;
+        right: 850px;
     }
-    .container {
-        width: 500px;
-    }
-    .nav-button {
-        top: 26px;
-    }
-    main .container {
-        height: 630px;
-    }
+}
+
+@media (max-width: 767px) {
     header {
-        height: 80vh;
-        width: 130vw;
+        height: 707px;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+    .rightSection{
+        display: flex;
+        flex-direction: column;
+        width: 315px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 30px;
+    }
+    .rightSection h1 {
+        font-size: 34px;
+    }
+    .rightSection .design_text {
+        font-size: 28px;
+    }
+    .Kelvin {
+        width: 307px;
+        height: 91px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .rightSection p {
         width: 315px;
         height: 84px;
     }
-    section {
+    .leftSection {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 296px;
+        height: 367px;
+        margin-left: 40px;
+    }
+    .leftSection img{
+        width: 296px;
+        height: 367px;
     }
     .blocks {
-        flex-direction: row;
-        margin-top: 100px;
-        height: 228px;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        height: 804px;
+        width: 315px;
+        margin-left: 30px;
+    }
+    .Design,
+    .Dev,
+    .Testing {
+        display: flex;
+        flex-direction: column;
+        width: 315px;
+        height: 228px;
+    }
+    .Design p,
+    .Dev p,
+    .Testing p {
+        width: 315px;
+    }
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio h1 {
+        width: 144px;
+        height: 51px;
+        margin-left: 116px;
     }
     .fashion-store img,
     .reebok img,
@@ -66,16 +116,10 @@
         width: 315px;
         height: 170px;
     }
-    .background {
-        height: 1150px;
-        width: 130vw;
+    .container {
+        width: 375px;
     }
-    .portfolio h1{
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-    .leftSection img {
-        width: 296px;
-        height: 367px;
+    .portfolio h1 {
+        margin-right: 116px;
     }
 }

@@ -109,7 +109,6 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 .portfolio h1 {
     font-size: 34px;
@@ -127,7 +126,7 @@ ul {
 .fashion-store p,
 .reebok p,
 .Braun p {
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: underline;
     display: flex;
     justify-content: center;
