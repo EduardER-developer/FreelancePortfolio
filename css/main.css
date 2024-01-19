@@ -1,0 +1,198 @@
+* {
+    font-family: Poppins, sans-serif;
+}
+header {
+    padding-top: 20px;
+    background-color: #F1F1F1;
+    height: 80vh;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+.navPanel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo img {
+    width: 115px;
+    height: 35px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+.nav a{
+    color: black;
+    padding: 20px;
+    transition: 0.2 ease-in-out;
+}
+.nav a:hover{
+    color: #606060;
+}
+.container section {
+    display: flex;
+    justify-content: space-between;
+}
+.rightSection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+}
+.rightSection h1 {
+    font-size: 44px;
+    font-weight: 500;
+    justify-content:right;
+}
+.rightSection p {
+    font-size: 14px;
+    width: 500px;
+    height: 56px;
+    margin-top: 20px;
+}
+.leftSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 76px;
+}
+.leftSection img {
+    width: 494px;
+    height: 613px;
+}
+
+.nav-button {
+    display: none;
+}
+/* MAIN */
+.blocks {
+    height: 228px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.Design,
+.Dev,
+.Testing {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 370px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.Design h2,
+.Dev h2,
+.Testing h2 {
+    font-weight: 500;
+    font-size: 24px;
+}
+.Design p,
+.Dev p,
+.Testing p{
+    font-size: 14px;
+    width: 370px;
+    height: 84px;
+}
+/* PORTFOLIO */
+.background {
+    background-color: #F1F1F1;
+}
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.portfolio h1 {
+    font-size: 34px;
+    font-weight: 500;
+    margin-top: 90px;
+}
+.fashion-store img,
+.reebok img,
+.Braun img {
+    width: 930px;
+    height: 500px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.fashion-store p,
+.reebok p,
+.Braun p {
+    font-size: 16px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+.Braun p {
+    margin-bottom: 30px;
+}
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacts h1{
+    font-size: 34px;
+    font-weight: 500;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    width: 159px;
+    height: 51px;
+}
+.contacts h5 {
+    font-size: 18px;
+    margin-bottom: 40px;
+    width: 296px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts a {
+    padding: 7px 22px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+}
+.social {
+    margin-top: 80px;
+    width: 342.18px;
+    height: 40.92px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer .container p {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    opacity: 0.6;
+    width: 260px;
+    height: 42px;
+}
