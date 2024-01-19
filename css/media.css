@@ -31,6 +31,37 @@
 }
 
 @media (max-width: 767px) {
+
+    .nav_list {
+        display: none;
+    }
+    .nav-button {
+        display: block;
+    }
+    .nav.open .nav_list {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        opacity: 0.9;
+        z-index: 1;
+        padding: 46px 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        font-size: 34px;
+        font-weight: 500;
+    }
+    .nav-button {
+        position: fixed;
+        z-index: 9;
+        top: 58px;
+        right: 30px;
+    }
+
     .logo {
         width: 115px;
         height: 35px;
